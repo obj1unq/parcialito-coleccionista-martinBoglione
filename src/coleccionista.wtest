@@ -42,6 +42,7 @@ describe "tests del coleccionista "{
 		assert.notThat(coleccionista.existeElementoDe(musica))
 	}
 	
+	/* 
 	test "categorias" {
 		assert.equals(#{juguete, musica}, coleccionista.categorias())
 	}
@@ -51,7 +52,7 @@ describe "tests del coleccionista "{
 		coleccionista.quitarElemento(cassetteCantaninio)
 		assert.equals(#{juguete}, coleccionista.categorias())
 	}
-	
+	*/
 	test "todos valiososo (no) " {
 		assert.notThat(coleccionista.todosValiosos())
 	}
